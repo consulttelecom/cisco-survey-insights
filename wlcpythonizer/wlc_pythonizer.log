@@ -1,0 +1,668 @@
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Ssid_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Ipv6_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Advanced_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Radius_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Rf_Profile'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Dynamic_Interface'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Switch_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Network_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Mobility_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Ap_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Dhcp_Server'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Redundancy_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.System_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Band5_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Band24_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Cleanair_24G_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'aireos_dicts_classes.Cleanair_5G_Config'>
+DEBUG:root:Checked AireOS parsing dictionaries test results for correct parsing
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Nearby_Ap'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Multicast'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Mobility_All'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Advanced_Eap'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Flex_Profile'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Ap_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Ap_Rf_24_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Ap_Rf_5_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Ap_Slot_Config'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Https_Server'>
+DEBUG:root:Checking parsing dictionary for object type: <class 'ewlc_dicts_classes.Ewlc_Client_Stats'>
+DEBUG:root:Checked eWLC parsing dictionaries test results for correct parsing
+DEBUG:root:Number of NON-EMPTY lines in config file ../testing/testing_config/test_config_9800.log29826
+DEBUG:root:Platform is 9800
+DEBUG:root:Parsed platform is 9800
+DEBUG:root:Separating config section for items with --- show clock ---
+DEBUG:root:getting config section for show clockshow version
+DEBUG:root:getting config section for show versionshow running-config
+DEBUG:root:Enumerating the list of start words --- show ap config general ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show ap config general ------ show ap config slots ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Config'> , platform is 9800
+DEBUG:root:Length of config section is 97
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 92
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show ap config slots ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show ap config slots ------ show ap image ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Slot_Config'> , platform is 9800
+DEBUG:root:Length of config section is 126
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 111
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Slot_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Slot_Config'> , platform is 9800
+DEBUG:root:Length of config section is 122
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 108
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Slot_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show ap auto-rf dot11 24ghz ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show ap auto-rf dot11 24ghz ------ show ap auto-rf dot11 5ghz ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Rf_24_Config'> , platform is 9800
+DEBUG:root:Length of config section is 99
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 83
+DEBUG:root:errors_list is [['No key found ', 'Channel  141', '-128 dBm @  0% busy'], ['No key found ', 'Channel  141', '0']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Rf_24_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show ap auto-rf dot11 5ghz ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show ap auto-rf dot11 5ghz ------ show ap dot11 24ghz channel ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Rf_5_Config'> , platform is 9800
+DEBUG:root:Length of config section is 150
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 134
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Rf_5_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show wlan all ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show wlan all ------ show wlan summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 99
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 88
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-blue']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 101
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 90
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-1x']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 101
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 90
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-CWA']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 79
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 69
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-PSK']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 101
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 90
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', 'WPA3-SAE']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 99
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 88
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-open']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 79
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 69
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', 'nowayhere']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 101
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 90
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-eogre']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 79
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 69
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', 'cisco-only']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 101
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 90
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-eogre-aaa']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 101
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 90
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6'], ['No key found ', 'WLAN Profile Name1', '9800-open-anchor']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'> , platform is 9800
+DEBUG:root:Length of config section is 78
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 68
+DEBUG:root:errors_list is [['No key found ', 'Priority (default)1', '6']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ssid_Config'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show wireless profile policy all ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show wireless profile policy all ------ show wireless profile flex
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 97
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'vlan120']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'Flex1_test']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'eogre-policy']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'vlan130_DHCP']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'home_WLANID_2']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'anchor-profile']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 96
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'CWA-centralized']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 97
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'Flex2_(cisco-only)']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 65
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'flex_local_vlan120']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 97
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'flex_local_vlan130']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 97
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'vlan110 with opt82']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 95
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 66
+DEBUG:root:errors_list is [['No key found ', 'Policy Profile Name1', 'default-policy-profile']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 96
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 65
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show ap profile all-profiles ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show ap profile all-profiles ------ show wireless profile airtime-fairness summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 77
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 58
+DEBUG:root:errors_list is [['No key found ', 'AP Profile Name1', 'POD#1']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 77
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 57
+DEBUG:root:errors_list is [['No key found ', 'AP Profile Name1', '9800-1x']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 77
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 57
+DEBUG:root:errors_list is [['No key found ', 'AP Profile Name1', 'mesh_ap_profile']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 77
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 58
+DEBUG:root:errors_list is [['No key found ', 'AP Profile Name1', 'default-ap-profile']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 76
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 57
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Ap_Join_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show wireless profile flex  all ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show wireless profile flex  all ------ show wireless profile mesh all ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Flex_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 32
+DEBUG:root:getting config section for VLAN Name - VLAN ID mappingHTTP-Proxy
+DEBUG:root:parsing tables function is called for section VLAN Name - VLAN ID mapping  :
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 23
+DEBUG:root:errors_list is [['No key found ', 'Flex Profile Name1', 'default-flex-profile']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Flex_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Flex_Profile'> , platform is 9800
+DEBUG:root:Length of config section is 26
+DEBUG:root:getting config section for VLAN Name - VLAN ID mappingHTTP-Proxy
+DEBUG:root:parsing tables function is called for section VLAN Name - VLAN ID mapping    : Not Configured
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 22
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Flex_Profile'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show wireless wps rogue ap summary ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Rogue_Ap_All'>
+DEBUG:root:Is it named list?False
+DEBUG:root:getting config section for --- show wireless wps rogue ap summary ------ show wireless wps rogue client summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Rogue_Ap_All'> , platform is 9800
+DEBUG:root:Length of config section is 25
+DEBUG:root:getting config section for Total Number of Rogue APsdummy
+DEBUG:root:parsing tables function is called for section Total Number of Rogue APs             : 10
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 10
+DEBUG:root:errors_list is []
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Rogue_Ap_All'>
+DEBUG:root:Enumerating the list of start words --- show wireless tag policy all ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show wireless tag policy all ------ show wireless tag rf summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 11
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:getting config section for Number of RLAN-POLICY mapsdummy
+DEBUG:root:parsing tables function is called for section Number of RLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'POD#1']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 11
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:getting config section for Number of RLAN-POLICY mapsdummy
+DEBUG:root:parsing tables function is called for section Number of RLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 2
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'eogre']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'eogre2']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 9
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 3
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'home-flexmode']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'mts-test-site']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'Flex1_test_tag']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'anchor-testing']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 3
+DEBUG:root:errors_list is [['No key found ', 'Policy Tag Name1', 'default-policy-tag']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:getting config section for Number of WLAN-POLICY mapsNumber of RLAN-POLICY maps
+DEBUG:root:parsing tables function is called for section Number of WLAN-POLICY maps: 1
+DEBUG:root:getting config section for Number of RLAN-POLICY mapsdummy
+DEBUG:root:parsing tables function is called for section Number of RLAN-POLICY maps: 0
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 2
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Policy_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show wireless tag site all ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show wireless tag site all ------ show wireless tag policy all ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 5
+DEBUG:root:errors_list is [['No key found ', 'Site Tag Name1', 'home']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 7
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 5
+DEBUG:root:errors_list is [['No key found ', 'Site Tag Name1', 'POD#1']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 8
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 6
+DEBUG:root:errors_list is [['No key found ', 'Site Tag Name1', 'Mesh_AP_tag']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 8
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 7
+DEBUG:root:errors_list is [['No key found ', 'Site Tag Name1', 'Flex1_site_tag']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 9
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 8
+DEBUG:root:errors_list is [['No key found ', 'Site Tag Name1', 'default-site-tag']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 8
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 7
+DEBUG:root:errors_list is [['No key found ', 'Site Tag Name1', 'mts-test-site-TAG']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Site_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 6
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 5
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Site_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show wireless tag rf all ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for --- show wireless tag rf all ------ show wireless tag site all ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 6
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 4
+DEBUG:root:errors_list is [['No key found ', 'Tag Name1', 'POD#1']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 6
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 4
+DEBUG:root:errors_list is [['No key found ', 'Tag Name1', 'default-rf-tag']]
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'> , platform is 9800
+DEBUG:root:Length of config section is 5
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 4
+DEBUG:root:errors_list is []
+DEBUG:root:New item is parsed and appended to NamedList <class 'ewlc_dicts_classes.Ewlc_Rf_Tag'>
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'aireos_dicts_classes.NamedList'>
+DEBUG:root:Enumerating the list of start words --- show advanced eap ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Advanced_Eap'>
+DEBUG:root:Is it named list?False
+DEBUG:root:getting config section for --- show advanced eap ------ show wireless wgb summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Advanced_Eap'> , platform is 9800
+DEBUG:root:Length of config section is 10
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 8
+DEBUG:root:errors_list is []
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Advanced_Eap'>
+DEBUG:root:Enumerating the list of start words --- show wireless mobility summary ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Mobility_All'>
+DEBUG:root:Is it named list?False
+DEBUG:root:getting config section for --- show wireless mobility summary ------ show wireless summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Mobility_All'> , platform is 9800
+DEBUG:root:Length of config section is 17
+DEBUG:root:getting config section for Controllers configured in the Mobility Domaindummy
+DEBUG:root:parsing tables function is called for section Controllers configured in the Mobility Domain:
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 7
+DEBUG:root:errors_list is []
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Mobility_All'>
+DEBUG:root:Enumerating the list of start words --- show wireless multicast ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Multicast'>
+DEBUG:root:Is it named list?False
+DEBUG:root:getting config section for --- show wireless multicast ------ show wireless multicast group summary ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Multicast'> , platform is 9800
+DEBUG:root:Length of config section is 8
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 5
+DEBUG:root:errors_list is []
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Multicast'>
+DEBUG:root:Enumerating the list of start words --- show ip http server status ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Https_Server'>
+DEBUG:root:Is it named list?False
+DEBUG:root:getting config section for --- show ip http server status ------ show ip http server session-module ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Https_Server'> , platform is 9800
+DEBUG:root:Length of config section is 38
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 26
+DEBUG:root:errors_list is []
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Https_Server'>
+DEBUG:root:Enumerating the list of start words --- show wireless stats client detail ---
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Client_Stats'>
+DEBUG:root:Is it named list?False
+DEBUG:root:getting config section for --- show wireless stats client detail ------ show wireless client steering ---
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Client_Stats'> , platform is 9800
+DEBUG:root:Length of config section is 410
+DEBUG:root:Number of parsing errors = 0
+DEBUG:root:Number of parsed strings = 369
+DEBUG:root:errors_list is [['No key found ', 'Unknown2', '0']]
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Client_Stats'>
+DEBUG:root:Enumerating the list of start words ----- show ap auto-rf dot11 24ghz -----
+DEBUG:root:Function get_object is called
+DEBUG:root:The object is <class 'ewlc_dicts_classes.Ewlc_Nearby_Aps'>
+DEBUG:root:Is it named list?True
+DEBUG:root:getting config section for ----- show ap auto-rf dot11 24ghz ---------- show ap dot11 24ghz channel -----
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Nearby_Aps'> , platform is 9800
+DEBUG:root:Length of config section is 102
+DEBUG:root:Function get_object is called
+DEBUG:root:Section parsing for <class 'ewlc_dicts_classes.Ewlc_Nearby_Aps'> , platform is 9800
+DEBUG:root:Length of config section is 150
+DEBUG:root:Function get_object is called
+DEBUG:root:<class 'ewlc_dicts_classes.Ewlc_Nearby_Aps'>
+DEBUG:root:AP slots names for 9800 updated
+DEBUG:root:AP slots names for 9800 updated
+DEBUG:root:Rogue AP frequency bands for 9800 updated
+DEBUG:root:Following WLCs were parsed from file: dict_keys(['vEWLC'])
